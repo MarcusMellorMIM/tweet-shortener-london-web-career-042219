@@ -28,7 +28,7 @@ def word_substituter( tweet )
 
 end
 
-def bulk_tweet_shortner
+def bulk_tweet_shortener
 
   puts word_substituter("Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!")
 
