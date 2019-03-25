@@ -7,7 +7,13 @@ def dictionary
     "too" => "4",
     "be" => "b",
     "you" => "u",
-    "at" => "@".
+    "at" => "@",
     "and" => "&"
   }
+end
+
+def word_substituter( tweet )
+  
+  tweet_array =   
+
 end
