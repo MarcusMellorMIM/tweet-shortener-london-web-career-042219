@@ -16,8 +16,12 @@ def word_substituter( tweet )
   
   tweet_array = array.split(" ")
   dictionary~_hash = dictionary
+  counter=0
   tweet_array.each do | word |
-        
+    if replacement_word=dictionary[word]
+      tweet_array[counter]=replacement_word  
+    end
+    counter+=1
   end
-  
+  new_tweet=tweet_array.join
 end
