@@ -14,6 +14,10 @@ end
 
 def word_substituter( tweet )
   
-  tweet_array =   
-
+  tweet_array = array.split(" ")
+  dictionary~_hash = dictionary
+  tweet_array.each do | word |
+        
+  end
+  
 end
