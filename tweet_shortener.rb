@@ -21,7 +21,7 @@ def word_substituter( tweet )
   counter=0
   replacement_word=""
   tweet_array.each do | word |
-  if replacement_word=dictionary[word] #if true the key exists
+  if replacement_word=dictionary[word.downcase] #if true the key exists
       tweet_array[counter]=replacement_word  
   end
     counter+=1
